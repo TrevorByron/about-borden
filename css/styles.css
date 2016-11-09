@@ -1,0 +1,218 @@
+/*.nav {
+  position: fixed;
+  padding: 10px;
+  width: 100%;
+  top: 0px;
+  height: 30px;
+  background-color: rgba(236, 236, 236, 0.5);
+  text-align: right;*/
+
+
+
+
+ul {
+  Position: fixed;
+    right: 0;
+    top: -65px;
+    z-index: 100;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    width: 670px;
+    text-align: center;
+
+
+
+}
+li {
+  display: inline-block;
+  margin: 10px;
+
+
+}
+a {
+ color: grey;
+ text-decoration: none;
+}
+.intro {
+  height: 670px;
+  background-color: #FF897B;
+  background-size: cover;
+  text-align: center;
+  border-bottom: 1px solid white;
+  z-index: 100;
+
+}
+.arrow {
+  height: 55px;
+  width: 55px;
+  margin: 0 auto;
+  background-image: url("../images/arrow-down.svg");
+  animation: bounce 2s infinite;
+  position: relative;
+  top:480px;
+}
+
+@keyframes bounce {
+
+0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+}
+40% {
+    transform: translateY(-30px);
+}
+60% {
+    transform: translateY(-15px);
+}
+}
+.intro h1 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 110px;
+  font-weight: 500;
+  position: relative;
+  top:205px;
+  margin: 0 auto;
+
+
+}
+
+.about {
+  float: left;
+  width: 50%;
+  margin-top: 200px;
+      position: fixed;
+        z-index:-1;
+}
+.about h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 75px;
+  font-weight: 100;
+  color: grey;
+  top: 50px;
+  text-align: center;
+}
+.about h2 {
+font-family: 'La Belle Aurore', cursive;
+  font-size: 40px;
+  font-weight: 100;
+  color: grey;
+  text-align: center;
+  position: relative;
+  bottom: 60px;
+}
+.work {
+    float:right;
+    width: 50%;
+    margin-top: 200px;
+    position: fixed;
+    z-index:-1;
+    left: 50%;
+    overflow: hidden;
+
+
+}
+.work h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 75px;
+  font-weight: 100;
+  color: grey;
+  top: 50px;
+  text-align: center;
+
+}
+.work h2 {
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 40px;
+  font-weight: 100;
+  color: grey;
+  text-align: center;
+  position: relative;
+  bottom: 60px;
+
+}
+.description1 {
+  height: auto;
+  width: 50%;
+  /*background: url("../images/background1.jpg");*/
+  background-color: #A8DCD1;
+  float: right;
+padding-top: 40px;
+padding-bottom: 40px;
+  text-align: center;
+}
+.description1 img {
+
+  width: 487px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  border: 1px solid white;
+}
+
+.description1 p {
+  font-size: 14px;
+  color: white;
+  border: 1px solid white;
+  margin: 0 auto;
+  padding: 18px;
+  line-height: 25px;
+  font-weight: 100;
+  max-width: 450px;
+
+
+
+
+}
+
+
+.left {
+  height: auto;;
+  width: 50%;
+  background-color: #BABABA;
+  float: left;
+  clear: right;
+  text-align: center;
+  border-top: 1px solid white;
+}
+.left img {
+margin: 60px;
+margin-bottom: 0px;
+}
+
+.left h2 {
+  color: white;
+  font-size: 25px;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  margin-top: 10px;
+
+}
+.seasha {
+  clear: left;
+  background-color: #FAF0CA;
+}
+
+
+.carpenter {
+  clear: left;
+  background-color: #A8DCD1;
+
+}
+.song-found {
+  clear: left;
+  background-color:#FF897B;
+
+  }
+
+  .explore {
+    clear: left;
+    background-color: #597C93;
+  }
